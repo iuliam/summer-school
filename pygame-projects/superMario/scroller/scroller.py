@@ -43,7 +43,7 @@ class Hero(pygame.sprite.Sprite):
         self.area = pygame.display.get_surface().get_rect()
         self.rect.bottomleft = 50,240
         self.running = 0
-        self.runspeed = 1/2
+        self.runspeed = 1
         self.jumping = 0
         self.airtime = 100
         self.airtick = 0
